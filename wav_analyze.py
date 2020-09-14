@@ -10,7 +10,7 @@ import pywt
 
 #filepath='output/07_05/generated_5.wav'
 
-filepath='C_major.wav'
+filepath='C4_fl.wav'
 
 # x=wave.open(filepath,'rb')
 # params = x.getparams()
@@ -25,29 +25,38 @@ y,fs=librosa.load(filepath)
 # plt.xlabel('Time (samples)')
 # plt.ylabel('Amplitude')
 # plt.show()
+#
+#
+# wavename = 'cgau8'
+# totalscal = 256
+# fc = pywt.central_frequency(wavename)
+# cparam = 2 * fc * totalscal
+# scales = cparam / np.arange(totalscal, 1, -1)
+# [cwtmatr, frequencies] = pywt.cwt(y, scales, wavename, 1.0 / fs)
 
 
-wavename = 'cgau8'
-totalscal = 256
-fc = pywt.central_frequency(wavename)
-cparam = 2 * fc * totalscal
-scales = cparam / np.arange(totalscal, 1, -1)
-[cwtmatr, frequencies] = pywt.cwt(y, scales, wavename, 1.0 / fs)
 
 spec = np.abs(librosa.stft(y,n_fft=2048, hop_length=512))
 spec = librosa.amplitude_to_db(spec, ref=np.max)
 librosa.display.specshow(spec, sr=fs, x_axis='time', y_axis='log')
 
-plt.colorbar(format='%+2.0f dB');
-plt.title('Spectrogram');
+plt.colorbar(format='%+2.0f dB')
+plt.title('Spectrogram (fft length = 2048)')
 plt.show()
 
 
+spec2 = np.abs(librosa.stft(y,n_fft=512))
+spec2 = librosa.amplitude_to_db(spec2, ref=np.max)
+librosa.display.specshow(spec2, sr=fs, x_axis='time', y_axis='log')
+
+plt.colorbar(format='%+2.0f dB')
+plt.title('Spectrogram (fft length = 512)')
+plt.show()
 
 
 # mel_spect = librosa.feature.melspectrogram(y=y, sr=fs, n_fft=2048, hop_length=512)
 # mel_spect = librosa.power_to_db(mel_spect, ref=np.max)
-# librosa.display.specshow(mel_spect, y_axis='mel', fmax=8000, x_axis='time');
-# plt.title('Mel Spectrogram');
-# plt.colorbar(format='%+2.0f dB');
+# librosa.display.specshow(mel_spect, y_axis='mel', fmax=8000, x_axis='time')
+# plt.title('Mel Spectrogram')
+# plt.colorbar(format='%+2.0f dB')
 # plt.show()

@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf2254e8-1cee-4eba-b5a3-45aaf61bee19" name="Default Changelist" comment="" />
+    <list default="true" id="bf2254e8-1cee-4eba-b5a3-45aaf61bee19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/C6_fl.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STFT_exp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acou/generated_0.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acou/generated_1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acou/generated_2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acou/generated_3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acou/generated_4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acou/generated_5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acou/generated_6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acou/generated_7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated_0.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated_2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated_3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated_4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/istft_exp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mel_exp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oth_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/m_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wav_analyze.py" beforeDir="false" afterPath="$PROJECT_DIR$/wav_analyze.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +62,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Bristol/GraduationProject/thesis figure/fig_04" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,10 +71,17 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="python.debugger.dataview.autoresize" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.wavelet_analyze">
-    <configuration name="pycwt_tutorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\Musical_Synthesis\acou" />
+      <recent name="D:\Project\Musical_Synthesis" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.oth_analysis">
+    <configuration name="STFT_exp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Musical_Synthesis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,7 +94,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycwt_tutorial.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/STFT_exp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="istft_exp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Musical_Synthesis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,7 +116,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/istft_exp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="m_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Musical_Synthesis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,7 +138,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/m_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wav_analyze" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mel_exp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Musical_Synthesis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,7 +160,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wav_analyze.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mel_exp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wavelet_analyze" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="oth_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Musical_Synthesis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,7 +182,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wavelet_analyze.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oth_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.wavelet_analyze" />
-        <item itemvalue="Python.pycwt_tutorial" />
-        <item itemvalue="Python.wav_analyze" />
-        <item itemvalue="Python.test4" />
-        <item itemvalue="Python.test3" />
+        <item itemvalue="Python.oth_analysis" />
+        <item itemvalue="Python.mel_exp" />
+        <item itemvalue="Python.istft_exp" />
+        <item itemvalue="Python.m_model" />
+        <item itemvalue="Python.STFT_exp" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +237,11 @@
       <workItem from="1599406712919" duration="2555000" />
       <workItem from="1599455703688" duration="969000" />
       <workItem from="1599554231045" duration="10383000" />
+      <workItem from="1599634880730" duration="7519000" />
+      <workItem from="1599723448002" duration="715000" />
+      <workItem from="1599899670111" duration="18176000" />
+      <workItem from="1599979616373" duration="8847000" />
+      <workItem from="1600063030452" duration="1614000" />
     </task>
     <servers />
   </component>
@@ -216,50 +249,54 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1599584814956">
+    <state x="697" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599979685157">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1599584814956" />
-    <state width="1877" height="257" key="GridCell.Tab.0.bottom" timestamp="1599592051659">
+    <state x="697" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1599979685157" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1599990988471">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599592051659" />
-    <state width="1877" height="257" key="GridCell.Tab.0.center" timestamp="1599592051658">
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1599990988471" />
+    <state width="1877" height="257" key="GridCell.Tab.0.bottom" timestamp="1600034327936">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599592051658" />
-    <state width="1877" height="257" key="GridCell.Tab.0.left" timestamp="1599592051658">
+    <state width="1877" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600034327936" />
+    <state width="1877" height="257" key="GridCell.Tab.0.center" timestamp="1600034327936">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599592051658" />
-    <state width="1877" height="257" key="GridCell.Tab.0.right" timestamp="1599592051659">
+    <state width="1877" height="257" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600034327936" />
+    <state width="1877" height="257" key="GridCell.Tab.0.left" timestamp="1600034327935">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599592051659" />
-    <state width="1877" height="257" key="GridCell.Tab.1.bottom" timestamp="1599592051659">
+    <state width="1877" height="257" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600034327935" />
+    <state width="1877" height="257" key="GridCell.Tab.0.right" timestamp="1600034327936">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599592051659" />
-    <state width="1877" height="257" key="GridCell.Tab.1.center" timestamp="1599592051659">
+    <state width="1877" height="257" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600034327936" />
+    <state width="1877" height="257" key="GridCell.Tab.1.bottom" timestamp="1600034327937">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599592051659" />
-    <state width="1877" height="257" key="GridCell.Tab.1.left" timestamp="1599592051659">
+    <state width="1877" height="257" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600034327937" />
+    <state width="1877" height="257" key="GridCell.Tab.1.center" timestamp="1600034327937">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599592051659" />
-    <state width="1877" height="257" key="GridCell.Tab.1.right" timestamp="1599592051659">
+    <state width="1877" height="257" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600034327937" />
+    <state width="1877" height="257" key="GridCell.Tab.1.left" timestamp="1600034327936">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599592051659" />
+    <state width="1877" height="257" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600034327936" />
+    <state width="1877" height="257" key="GridCell.Tab.1.right" timestamp="1600034327937">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="257" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600034327937" />
     <state x="521" y="169" key="SettingsEditor" timestamp="1597990346117">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="521" y="169" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1597990346117" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1599554297628">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1600093121238">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599554297628" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1600093121238" />
     <state x="1012" y="401" width="672" height="678" key="search.everywhere.popup" timestamp="1599558609641">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -269,14 +306,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/wav_analyze.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wavelet_analyze.py</url>
           <line>28</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/STFT_exp.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -285,7 +322,12 @@
     <SUITE FILE_PATH="coverage/Musical_Synthesis$Unittests_for_spectral_util_test_SpectralOpsTest_testHertzToMel.coverage" NAME="Unittests for spectral_util_test.SpectralOpsTest.testHertzToMel Coverage Results" MODIFIED="1595502324318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Musical_Synthesis$Unittests_in_spectral_util_test_py.coverage" NAME="Unittests in spectral_util_test.py Coverage Results" MODIFIED="1595501701865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Musical_Synthesis$test.coverage" NAME="test Coverage Results" MODIFIED="1599395333209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Musical_Synthesis$m_model.coverage" NAME="m_model Coverage Results" MODIFIED="1599935724176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Musical_Synthesis$istft_exp.coverage" NAME="istft_exp Coverage Results" MODIFIED="1599937291207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Musical_Synthesis$oth_analysis.coverage" NAME="oth_analysis Coverage Results" MODIFIED="1599990923605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Musical_Synthesis$m_train.coverage" NAME="m_train Coverage Results" MODIFIED="1597994909126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Musical_Synthesis$STFT_exp.coverage" NAME="STFT_exp Coverage Results" MODIFIED="1599927472116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Musical_Synthesis$mel_exp.coverage" NAME="mel_exp Coverage Results" MODIFIED="1599939024357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Musical_Synthesis$Unittests_in_spectrogram_util_test_py.coverage" NAME="Unittests in spectrogram_util_test.py Coverage Results" MODIFIED="1595502054170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Musical_Synthesis$pycwt_tutorial.coverage" NAME="pycwt_tutorial Coverage Results" MODIFIED="1599587167748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Musical_Synthesis$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1599397323370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -294,6 +336,6 @@
     <SUITE FILE_PATH="coverage/Musical_Synthesis$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1599400755511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Musical_Synthesis$wavelet_analyze.coverage" NAME="wavelet_analyze Coverage Results" MODIFIED="1599587573868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Musical_Synthesis$Unittests_for_spectral_util_test_SpectralOpsTest.coverage" NAME="Unittests for spectral_util_test.SpectralOpsTest Coverage Results" MODIFIED="1595502294272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Musical_Synthesis$wav_analyze.coverage" NAME="wav_analyze Coverage Results" MODIFIED="1599586930795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Musical_Synthesis$wav_analyze.coverage" NAME="wav_analyze Coverage Results" MODIFIED="1599670923941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
